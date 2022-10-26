@@ -6,7 +6,7 @@ ps.每次richmenu的ID都會更改
 再到menu_backgroune.py改背景
 '''
 def menu():
-    token="zzBhAZ4MBDEhL2RWVLLCq8GJhQI3PCiV9IU4DZh4nQw3PCXBKHjw6DMkMFx2ZEyADX42DEwByiyq96zeUUn6gyA7GPrwuGTS5vV3IzqI89/6BTEN46OW0ZiDnq7n/eQMg/7DCAI2IXTpydRXac3ZPgdB04t89/1O/w1cDnyilFU="
+    token=""
     headers = {"Authorization":"Bearer "+token,"Content-Type":"application/json"}
     
     body = {
