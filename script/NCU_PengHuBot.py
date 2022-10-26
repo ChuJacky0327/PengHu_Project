@@ -26,9 +26,9 @@ import time
 
 app = Flask(__name__)
 
-line_bot_api = LineBotApi('zzBhAZ4MBDEhL2RWVLLCq8GJhQI3PCiV9IU4DZh4nQw3PCXBKHjw6DMkMFx2ZEyADX42DEwByiyq96zeUUn6gyA7GPrwuGTS5vV3IzqI89/6BTEN46OW0ZiDnq7n/eQMg/7DCAI2IXTpydRXac3ZPgdB04t89/1O/w1cDnyilFU=')
+line_bot_api = LineBotApi('')
 # Channel Secret
-handler = WebhookHandler('cee011ae1ae2e0004fcc13a0584c16d5')
+handler = WebhookHandler('')
 PHP_ngrok = "https://a662-36-231-209-188.ngrok.io"
 
 def travel_reply(Title,label1,text1,data1,label2,text2,data2,label3,text3,data3,label4,text4,data4):
