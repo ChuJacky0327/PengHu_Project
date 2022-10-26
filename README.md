@@ -30,7 +30,7 @@
 ## 備註 :  
 > 1. 執行的 python 程式在 **script 資料夾**裡。
 > 2. 請事先自行安裝好 **ngrok** 與 **xampp**。
-> 3. xampp 預安裝位置為 **C槽**，將此資料夾裡的 **PHP 檔**案放置於**C:/xampp/htdocs**裡，開啟 xampp 後，即可在網站輸入 ```http://localhost/XXX.php``` 開啟所需的 PHP 檔。
+> 3. xampp 預安裝位置為 **C槽**，將此資料夾裡的 **PHP 檔案**放置於** C:/xampp/htdocs **裡，開啟 xampp 後，即可在網站輸入 ```http://localhost/XXX.php``` 開啟所需的 PHP 檔。
 > 4. 本研究有建構自己的本地資料庫 (MySQL) ，因此 PHP 檔所產生的地圖資訊，是去讀本地資料庫的數據。
 > 5. 會利用 ngrok 跳轉 PHP localhost 端的問題，而 ngrok 要同時開啟 port 8000 (給 Line Bot) 和 port 80 (給 PHP 動態網頁)，因此要設成多開 port， 到 ```/Users/XXX/.ngrok2/ngrok.yml```裡新增程式碼。
 ```shell
