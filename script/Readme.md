@@ -9,10 +9,8 @@ $ python3 CSVtoMYSQL.py
 ```
 ***
 ## 執行 Line Bot :
-**
-1. 記得要先執行 Bot 然後開啟 ngrok 在到 Line Develop 驗證。
-2. 記得自行更換程式裡 PHP ngrok 的網址。
-**
+**1. 記得要先執行 Bot 然後開啟 ngrok 在到 Line Develop 驗證。**
+**2. 記得自行更換程式裡 PHP ngrok 的網址。**
 ```shell
 $ python3 NCU_PengHuBot.py
 ```
