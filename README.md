@@ -3,8 +3,7 @@
 本研究透過大數據分析針對使用者的個人資訊，以機器學習的方式分析過往遊客的旅遊經驗及當天資訊，提出景點推薦、行程規劃、景點人潮三項功能並建置於Line Bot上，使用者點選欲使用之服務後，根據不同的服務類型，後臺會透過手機端傳回來的使用者資訊，利用機器學習進行計算，並於手機端顯示出與使用者關聯性最高的結果，過程中使用者不需要輸入資料，只需點選按鈕即可完成操作，透過所建置的功能以提供遊客個人化的旅遊規劃服務，解決現有平台旅遊資訊複雜、熱門景點與行程單調、景點人潮難以取得等問題，使用者不需用額外下載應用程式即可規劃出適合自己的行程。  
 > 以下為整體架構圖:  
 ![https://github.com/ChuJacky0327/PengHu_Project/blob/main/image/%E7%B3%BB%E7%B5%B1%E6%9E%B6%E6%A7%8B%E5%9C%96.png](https://github.com/ChuJacky0327/PengHu_Project/blob/main/image/%E7%B3%BB%E7%B5%B1%E6%9E%B6%E6%A7%8B%E5%9C%96.png)  
-> 物聯網研討會投稿:  
-[https://github.com/ChuJacky0327/PengHu_Project/blob/main/%E4%BB%A5%E6%A9%9F%E5%99%A8%E5%AD%B8%E7%BF%92%E5%88%86%E6%9E%90%E6%BE%8E%E6%B9%96%E6%97%85%E9%81%8A%E8%B6%B3%E8%B7%A1%E6%95%B8%E6%93%9A%E4%B9%8B%E6%99%BA%E6%85%A7%E5%8C%96%E5%80%8B%E4%BA%BA%E6%97%85%E9%81%8A%E6%8E%A8%E8%96%A6%E6%9C%8D%E5%8B%99.docx](https://github.com/ChuJacky0327/PengHu_Project/blob/main/%E4%BB%A5%E6%A9%9F%E5%99%A8%E5%AD%B8%E7%BF%92%E5%88%86%E6%9E%90%E6%BE%8E%E6%B9%96%E6%97%85%E9%81%8A%E8%B6%B3%E8%B7%A1%E6%95%B8%E6%93%9A%E4%B9%8B%E6%99%BA%E6%85%A7%E5%8C%96%E5%80%8B%E4%BA%BA%E6%97%85%E9%81%8A%E6%8E%A8%E8%96%A6%E6%9C%8D%E5%8B%99.docx)
+
 ***
 ## 第一項功能 : 行程規劃
 首先資料處理部份我們會依據使用者在澎湖旅遊的天數進行分類。當使用者點選行程規劃的按鈕後，Line Bot 會回傳一份按鈕選單供使用者選擇要到澎湖旅遊的天數，使用者透過按鈕選擇心儀的遊玩天數時，後端系統會立即將使用者的個人化資訊透過機器學習預先於資料庫數據訓練出的模型進行預測，推薦出一段適合使用者的行程路線規畫且顯示於我們所製作的動態網頁，並即時由Line Bot 回傳網頁的網址，以提供使用者一段適合自己的行程規劃。  
@@ -49,4 +48,4 @@ tunnels:
 > 6. ngrok 的指令要下 ```ngrok start --all```，就能透過 **[ngrok網址]/XXX.php** 進到 PHP 網頁並同時使用 Line Bot。
 > 7. imgur 禁止了 127.0.0.1 的訪問，所以要測試要用輸入 ```localhost``` 不能用 127.0.0.1。  
   
-> 本專案投稿至 2022智慧物聯網產學研討會   [https://github.com/ChuJacky0327/PengHu_Project/blob/main/%E4%BB%A5%E6%A9%9F%E5%99%A8%E5%AD%B8%E7%BF%92%E5%88%86%E6%9E%90%E6%BE%8E%E6%B9%96%E6%97%85%E9%81%8A%E8%B6%B3%E8%B7%A1%E6%95%B8%E6%93%9A%E4%B9%8B%E6%99%BA%E6%85%A7%E5%8C%96%E5%80%8B%E4%BA%BA%E6%97%85%E9%81%8A%E6%8E%A8%E8%96%A6%E6%9C%8D%E5%8B%99.docx](https://github.com/ChuJacky0327/PengHu_Project/blob/main/%E4%BB%A5%E6%A9%9F%E5%99%A8%E5%AD%B8%E7%BF%92%E5%88%86%E6%9E%90%E6%BE%8E%E6%B9%96%E6%97%85%E9%81%8A%E8%B6%B3%E8%B7%A1%E6%95%B8%E6%93%9A%E4%B9%8B%E6%99%BA%E6%85%A7%E5%8C%96%E5%80%8B%E4%BA%BA%E6%97%85%E9%81%8A%E6%8E%A8%E8%96%A6%E6%9C%8D%E5%8B%99.docx)
+**本專案投稿至 2022智慧物聯網產學研討會**   
